@@ -1,0 +1,89 @@
+#container{
+    
+    width: 350px;
+   margin: auto;
+}
+
+#img{
+    margin: 70px 0 100px 0;
+}
+
+#pword{
+    background-image: url(images/password.jpg);
+}
+
+.input{
+   
+    background-color: rgb(41,41,41);
+    width: 340px;
+    margin-bottom: 30px;
+ 
+}
+
+#uname{
+    background-image: url(images/username.jpg);
+    
+}
+
+button{
+    background:url(images/signin.jpg);
+    background-color: rgb(238,112,71);
+    width: 355px;
+    height: 36px;
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+#submit,.input{
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 0px solid;
+    height: 45px;
+    padding-left: 15px;
+    font-family: "Neue Haas Grotesk";
+    font-size: 13pt;
+    font-weight: bold;
+    color: #666666;
+}
+#submit{
+    color: black;
+    
+}
+
+#yes,#no{
+    display: none;
+    
+    
+}
+#sign{
+    color: rgb(102,102,102);
+    padding-left: 20px;
+    
+}
+
+#sign input[type="radio"]:checked+label{ 
+   color:rgb(255,255,255);
+}
+body{
+    background-color:rgb(48,48,48) 
+}
+
+#uname,#pword{
+    color:rgb(255,255,255); 
+}
+
+#signp{
+    margin-bottom: 0;
+}
+
+#fade,#fade2{
+  
+    color: rgb(153, 50, 50);
+    font-weight: bold;
+    width: 350px;
+    position: absolute;
+    top: 440px;
+    display: none;
+    
+    
+}

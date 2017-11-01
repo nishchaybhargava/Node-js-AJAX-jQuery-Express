@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>GlobalLogic Single-Sign On Page</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/styling.css">
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            <img src="css/images/GlobalLogic.jpg" alt="GlobalLogic" id="img">
+            <div>
+                <div> 
+                <form method="post" id="credentials" >
+                    <input id="uname" name="uname" class="input" type="text" placeholder="Username" required /><br>
+                    <input id="pword" name="pword" class="input" type="password" placeholder="Password" required /><br>
+                    <button type="submit" id="submit" >Sign In</button>
+                </form>
+                </div>
+                <div id="fade">Login Failed. Please try again. Some form information was missing.</div>
+                <div id="fade2">Wrong Credentials.</div>
+        
+                <div id="sign">
+                    <p id="signp">STAY SIGNED IN?</p>
+                    <input id="yes" type="radio" name="choice">
+                    <label for="yes">Yes</label>
+                    <input id="no" type="radio" name="choice" checked>
+                    <label for="no">No</label>
+                </div>
+            </div>
+        </div> 
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
+    
+</html>
